@@ -5,14 +5,12 @@ class Employee1 {
     String Employee1Name;
     double salary;
 
-    // Constructor
     Employee1(int id, String name, double sal) {
         this.Employee1Id = id;
         this.Employee1Name = name;
         this.salary = sal;
     }
 
-    // Method to display Employee1 details
     void display() {
         System.out.println("\nEmployee1 ID   : " + Employee1Id);
         System.out.println("Employee1 Name : " + Employee1Name);
@@ -26,7 +24,7 @@ public class Employee1Details {
 
         System.out.print("Enter Employee1 ID   : ");
         int id = sc.nextInt();
-        sc.nextLine(); // Consume newline
+        sc.nextLine();
 
         System.out.print("Enter Employee1 Name : ");
         String name = sc.nextLine();
