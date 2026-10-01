@@ -1,0 +1,10 @@
+CREATE DATABASE library;
+USE library;
+
+CREATE TABLE Book (
+    BookID INT PRIMARY KEY,
+    Title VARCHAR(150) NOT NULL,
+    Author VARCHAR(100) NOT NULL,
+    Price DECIMAL(10, 2) NOT NULL,
+    Availability BOOLEAN NOT NULL DEFAULT TRUE
+);
